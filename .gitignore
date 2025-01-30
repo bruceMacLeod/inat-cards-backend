@@ -1,0 +1,10 @@
+.git/
+.DS_Store
+.env.production
+.env
+venv/
+__pycache__/
+*.pyc
+.env.local
+.DS_Store
+.idea/

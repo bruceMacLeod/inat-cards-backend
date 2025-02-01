@@ -7,8 +7,8 @@ load_dotenv()
 
 class Config:
     # Environment
-    ENV = os.getenv('FLASK_ENV', 'development')
-
+#    ENV = os.getenv('FLASK_ENV', 'development')
+    ENV = os.environ.get('FLASK_ENV', 'development')
     # Base paths
     if ENV == 'development':
         # Local development paths
@@ -19,7 +19,7 @@ class Config:
         # If using EFS, would be something like: '/mnt/efs/data'
 
     # Subdirectories
-    SPECIES_DATA_DIR = os.path.join(BASE_DATA_DIR, "MMAforays")
+    SPECIES_DATA_DIR = os.path.join(BASE_DATA_DIR, "mmaforays")
     UPLOADS_DIR = os.path.join(BASE_DATA_DIR, "uploads")
 
     PRONUNCIATION_CACHE_FILE = os.path.join(BASE_DATA_DIR, "pronounce.csv")

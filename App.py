@@ -53,7 +53,7 @@ CORS(
 
 # Constants
 #BASE_DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
-#SPECIES_DATA_DIR = os.path.join(BASE_DATA_DIR, "MMAforays")
+#SPECIES_DATA_DIR = os.path.join(BASE_DATA_DIR, "mmaforays")
 #UPLOADS_DIR = os.path.join(BASE_DATA_DIR, "uploads")
 #PRONUNCIATION_CACHE_FILE = os.path.join(BASE_DATA_DIR, "pronounce.csv")
 #INITIAL_FILE_PATH = os.path.join(UPLOADS_DIR, "macleod-obs-taxa.csv")
@@ -172,7 +172,7 @@ def load_cards():
     """Load all cards from a CSV file."""
     payload = request.json
     filename = payload.get("filename")
-    directory = payload.get("directory", "MMAforays")
+    directory = payload.get("directory", "mmaforays")
 
     try:
         file_path = os.path.join(Config.BASE_DATA_DIR, directory, filename)
@@ -231,8 +231,8 @@ def get_image():
 @app.route("/list_csv_files", methods=["GET"])
 def list_csv_files():
     """List CSV files in a directory."""
-    directory = request.args.get("directory", "MMAforays")
-    if directory == "MMAforays":
+    directory = request.args.get("directory", "mmaforays")
+    if directory == "mmaforays":
         directory_path = Config.SPECIES_DATA_DIR
     else:
         directory_path = Config.UPLOADS_DIR
@@ -266,7 +266,7 @@ def select_csv():
     global current_file
     payload = request.json
     filename = payload.get("filename")
-    directory = payload.get("directory", "MMAforays")
+    directory = payload.get("directory", "mmaforays")
 
     try:
         file_path = os.path.join(Config.BASE_DATA_DIR, directory, filename)

@@ -34,29 +34,14 @@ CORS(
     app,
     resources={
         r"/*": {
-            "origins": os.getenv("CORS_ALLOWED_ORIGINS", "http://localhost:3000").split(","),
-            "methods": os.getenv("CORS_ALLOWED_METHODS", "GET,POST,OPTIONS,PUT,DELETE").split(","),
-            "allow_headers": os.getenv("CORS_ALLOWED_HEADERS", "Content-Type,Authorization").split(","),
-            "supports_credentials": os.getenv("CORS_SUPPORTS_CREDENTIALS", "true").lower() == "true",
+            "origins": os.getenv("CORS_ALLOWED_ORIGINS", "http://localhost:3000").split(",")
+#            "methods": os.getenv("CORS_ALLOWED_METHODS", "GET,POST,OPTIONS,PUT,DELETE").split(","),
+#            "allow_headers": os.getenv("CORS_ALLOWED_HEADERS", "Content-Type,Authorization").split(","),
+#            "supports_credentials": os.getenv("CORS_SUPPORTS_CREDENTIALS", "true").lower() == "true",
         }
     }
 )
-#CORS(app,resources={
-#        r"/*": {
-#            "origins": ["http://localhost:3000"],
-#            "methods": ["GET", "POST", "OPTIONS"],
-#            "allow_headers": ["Content-Type", "Authorization"],
-#        }
-#    },
-#    supports_credentials=True,
-#)
 
-# Constants
-#BASE_DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
-#SPECIES_DATA_DIR = os.path.join(BASE_DATA_DIR, "mmaforays")
-#UPLOADS_DIR = os.path.join(BASE_DATA_DIR, "uploads")
-#PRONUNCIATION_CACHE_FILE = os.path.join(BASE_DATA_DIR, "pronounce.csv")
-#INITIAL_FILE_PATH = os.path.join(UPLOADS_DIR, "macleod-obs-taxa.csv")
 
 # Global state for current file
 current_file: Dict[str, Any] = {
@@ -64,10 +49,6 @@ current_file: Dict[str, Any] = {
     "directory": None,
     "data": None,
 }
-
-# Configure Gemini
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-model = genai.GenerativeModel("gemini-1.5-flash-latest")
 
 # Helper Functions
 def load_csv_data(file_path: str) -> Optional[pd.DataFrame]:
@@ -79,16 +60,14 @@ def load_csv_data(file_path: str) -> Optional[pd.DataFrame]:
         logger.error(f"Error loading CSV: {str(e)}")
         return None
 
-def save_pronunciation_cache(cache: Dict[str, str]) -> None:
-    """Save pronunciation cache to a CSV file."""
-    try:
-        with open(Config.PRONUNCIATION_CACHE_FILE, "w", newline="") as f:
-            writer = csv.writer(f)
-            writer.writerow(["scientific_name", "pronunciation"])
-            for name, pronunciation in cache.items():
-                writer.writerow([name, pronunciation])
-    except Exception as e:
-        logger.error(f"Error saving pronunciation cache: {str(e)}")
+# Load initial data
+if os.path.exists(Config.INITIAL_FILE_PATH):
+    current_file["path"] = Config.INITIAL_FILE_PATH
+    current_file["directory"] = "uploads"
+    current_file["data"] = load_csv_data(Config.INITIAL_FILE_PATH)
+else:
+    logger.warning(f"Initial file not found: {Config.INITIAL_FILE_PATH}")
+    current_file["data"] = pd.DataFrame(columns=["image_url", "scientific_name", "common_name"])
 
 def load_pronunciation_cache() -> Dict[str, str]:
     """Load pronunciation cache from a CSV file."""
@@ -105,17 +84,26 @@ def load_pronunciation_cache() -> Dict[str, str]:
             logger.error(f"Error loading pronunciation cache: {str(e)}")
     return cache
 
-# Load initial data
-if os.path.exists(Config.INITIAL_FILE_PATH):
-    current_file["path"] = Config.INITIAL_FILE_PATH
-    current_file["directory"] = "uploads"
-    current_file["data"] = load_csv_data(Config.INITIAL_FILE_PATH)
-else:
-    logger.warning(f"Initial file not found: {Config.INITIAL_FILE_PATH}")
-    current_file["data"] = pd.DataFrame(columns=["image_url", "scientific_name", "common_name"])
 
 # Load pronunciation cache
 pronunciation_cache = load_pronunciation_cache()
+
+# Configure Gemini
+genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+model = genai.GenerativeModel("gemini-1.5-flash-latest")
+
+
+def save_pronunciation_cache(cache: Dict[str, str]) -> None:
+    """Save pronunciation cache to a CSV file."""
+    try:
+        with open(Config.PRONUNCIATION_CACHE_FILE, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["scientific_name", "pronunciation"])
+            for name, pronunciation in cache.items():
+                writer.writerow([name, pronunciation])
+    except Exception as e:
+        logger.error(f"Error saving pronunciation cache: {str(e)}")
+
 
 # Flask Routes
 @app.route("/", defaults={"path": ""})

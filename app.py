@@ -12,7 +12,9 @@ from flask_cors import CORS, cross_origin
 from typing import Dict, Any, Optional, List
 from dotenv import load_dotenv
 from config import Config
-
+import fcntl
+import csv
+from typing import Dict
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -296,6 +298,36 @@ def delete_csv(filename: str):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+
+import fcntl
+import csv
+import os
+from typing import Dict
+
+
+def save_single_pronunciation(scientific_name: str, pronunciation: str) -> bool:
+    """
+    Append a single pronunciation record to the cache file with file locking.
+    Returns True if successful, False otherwise.
+    """
+    try:
+        # Open file in append mode with file locking
+        with open(Config.PRONUNCIATION_CACHE_FILE, 'a', newline='') as f:
+            # Acquire an exclusive lock
+            fcntl.flock(f.fileno(), fcntl.LOCK_EX)
+            try:
+                writer = csv.writer(f)
+                # Only write the new record
+                writer.writerow([scientific_name, pronunciation])
+                return True
+            finally:
+                # Release the lock
+                fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+    except Exception as e:
+        logger.error(f"Error saving pronunciation to cache: {str(e)}")
+        return False
+
+
 @app.route("/pronounce_name", methods=["POST"])
 def pronounce_name():
     """Get pronunciation for a scientific name."""
@@ -303,20 +335,53 @@ def pronounce_name():
     payload = request.json
     scientific_name = payload.get("scientific_name", "")
 
+    if not scientific_name:
+        return jsonify({"error": "Scientific name is required"}), 400
+
+    # Check cache first
     if scientific_name in pronunciation_cache:
         return jsonify({"pronunciation": pronunciation_cache[scientific_name]}), 200
 
     try:
+        # Generate pronunciation using Gemini
         prompt = f"Pronounce {scientific_name} using English Scientific Latin with explanation"
         response = model.generate_content(prompt)
         pronunciation = response.text
 
+        # Update both cache and file
         pronunciation_cache[scientific_name] = pronunciation
-        save_pronunciation_cache(pronunciation_cache)
 
-        return jsonify({"pronunciation": pronunciation}), 200
+        # Try to save to file
+        if save_single_pronunciation(scientific_name, pronunciation):
+            return jsonify({"pronunciation": pronunciation}), 200
+        else:
+            # If save failed, still return the pronunciation but log the error
+            logger.warning("Failed to save pronunciation to cache file")
+            return jsonify({
+                "pronunciation": pronunciation,
+                "warning": "Pronunciation generated but not cached"
+            }), 200
+
     except Exception as e:
+        logger.error(f"Error in pronounce_name: {str(e)}")
         return jsonify({"error": str(e)}), 500
+
+
+# Optional: Function to initialize the cache file if it doesn't exist
+def initialize_pronunciation_cache_file():
+    """Create the pronunciation cache file with headers if it doesn't exist."""
+    if not os.path.exists(Config.PRONUNCIATION_CACHE_FILE):
+        try:
+            with open(Config.PRONUNCIATION_CACHE_FILE, 'w', newline='') as f:
+                fcntl.flock(f.fileno(), fcntl.LOCK_EX)
+                try:
+                    writer = csv.writer(f)
+                    writer.writerow(["scientific_name", "pronunciation"])
+                finally:
+                    fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+        except Exception as e:
+            logger.error(f"Error initializing pronunciation cache file: {str(e)}")
+
 
 @app.route("/exit_application", methods=["POST"])
 def exit_application():

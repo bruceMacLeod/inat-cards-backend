@@ -186,7 +186,7 @@ def load_cards():
 def load_csv_data(file_path: str) -> Optional[pd.DataFrame]:
     """Load CSV data and return DataFrame."""
     try:
-        data = pd.read_csv(file_path)[["image_url", "scientific_name", "common_name"]].dropna()
+        data = pd.read_csv(file_path)[["image_url", "scientific_name", "common_name","taxa_url"]].dropna()
         return data
     except Exception as e:
         logger.error(f"Error loading CSV: {str(e)}")
@@ -230,9 +230,23 @@ def list_csv_files():
     csv_files = [f for f in os.listdir(directory_path) if f.endswith(".csv")]
     return jsonify({"files": csv_files}), 200
 
+def get_taxon_id(scientific_name):
+    """Fetch the taxon_id for a given scientific name from iNaturalist."""
+    url = "https://api.inaturalist.org/v1/taxa"
+    params = {"q": scientific_name, "rank": "species"}
+    response = requests.get(url, params=params)
+
+    if response.status_code == 200:
+        results = response.json().get("results", [])
+        if results:
+            return results[0].get("id")
+
+    print(f"No taxon_id found for {scientific_name}.")
+    return None
+
 @app.route("/upload_csv", methods=["POST"])
 def upload_csv():
-    """Upload a CSV file."""
+    """Upload a CSV file, add a taxa_url column, and save only specific columns."""
     if "file" not in request.files:
         return jsonify({"error": "No file part"}), 400
 
@@ -245,8 +259,35 @@ def upload_csv():
     if file and file.filename.endswith(".csv"):
         filename = secure_filename(file.filename)
         file_path = os.path.join(Config.BASE_DATA_DIR, directory, filename)
-        file.save(file_path)
-        return jsonify({"message": "File uploaded successfully"}), 200
+
+        # Read the uploaded CSV file directly from the request
+        rows = []
+        file_stream = file.stream.read().decode("utf-8").splitlines()
+        reader = csv.DictReader(file_stream)
+        for row in reader:
+            # Fetch the taxon_id and construct the taxa_url
+            scientific_name = row.get("scientific_name", "")
+            taxon_id = get_taxon_id(scientific_name)
+            taxa_url = f"https://www.inaturalist.org/taxa/{taxon_id}" if taxon_id else "N/A"
+
+            # Create a new row with only the required columns
+            new_row = {
+                "scientific_name": scientific_name,
+                "common_name": row.get("common_name", "N/A"),
+                "image_url": row.get("image_url", "N/A"),
+                "taxa_url": taxa_url
+            }
+            rows.append(new_row)
+
+        # Save the modified data to a new CSV file
+        output_filename = f"{filename}"
+        output_filepath = os.path.join(Config.BASE_DATA_DIR, directory, output_filename)
+        with open(output_filepath, mode="w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=["scientific_name", "common_name", "image_url", "taxa_url"])
+            writer.writeheader()
+            writer.writerows(rows)
+
+        return jsonify({"message": "File uploaded and modified successfully", "filename": output_filename}), 200
 
     return jsonify({"error": "Invalid file type"}), 400
 

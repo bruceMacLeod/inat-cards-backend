@@ -1,115 +1,105 @@
-id,scientific_name,common_name,observed_on,place_guess,latitude,longitude,url,image_url
-258161159,Angelina rufescens,N/A,2025-01-11,"Ottawa County, MI, USA",42.9789810101,-85.8292836022,https://www.inaturalist.org/observations/258161159,https://inaturalist-open-data.s3.amazonaws.com/photos/463140339/medium.jpg
-255642138,Angelina rufescens,N/A,2024-12-19,Bald Mountain Recreation Area South,42.752101065,-83.2237693175,https://www.inaturalist.org/observations/255642138,https://inaturalist-open-data.s3.amazonaws.com/photos/458171920/medium.jpg
-252941327,Angelina rufescens,N/A,2024-11-24,"Queens, NY, USA",40.7299767127,-73.7672923631,https://www.inaturalist.org/observations/252941327,https://inaturalist-open-data.s3.amazonaws.com/photos/452835940/medium.jpeg
-259687381,Calycina citrina,Yellow Fairy Cups,2025-01-26,"Каменецкий район, Брестская область, Беларусь",52.5823989833,23.7393998361,https://www.inaturalist.org/observations/259687381,https://inaturalist-open-data.s3.amazonaws.com/photos/466196360/medium.jpg
-259384785,Calycina citrina,Yellow Fairy Cups,2025-01-23,"Bristol and Bath Railway Path, Bristol, England, GB",51.466045,-2.5547916667,https://www.inaturalist.org/observations/259384785,https://inaturalist-open-data.s3.amazonaws.com/photos/465611623/medium.jpg
-258951405,Calycina citrina,Yellow Fairy Cups,2025-01-19,"Rose Cottage, Wotton-under-Edge GL12 7QP, UK",51.624025284,-2.3357225955,https://www.inaturalist.org/observations/258951405,https://inaturalist-open-data.s3.amazonaws.com/photos/464728207/medium.jpeg
-259786752,Cerrena unicolor,Mossy Maze Polypore,2025-01-27,"Manigotagan, MB R0E 1E0, Canada",51.1884415,-96.6238670997,https://www.inaturalist.org/observations/259786752,https://inaturalist-open-data.s3.amazonaws.com/photos/466417129/medium.jpeg
-259713878,Cerrena unicolor,Mossy Maze Polypore,2025-01-26,"Clinton River Park, Sterling Heights, MI, US",42.60738,-83.0229805,https://www.inaturalist.org/observations/259713878,https://static.inaturalist.org/photos/466270438/medium.jpg
-259669473,Cerrena unicolor,Mossy Maze Polypore,2025-01-26,"Whiting, WI, USA",44.4944629528,-89.5747267082,https://www.inaturalist.org/observations/259669473,https://inaturalist-open-data.s3.amazonaws.com/photos/466181325/medium.jpeg
-259663585,Coprinellus micaceus,mica cap,2025-01-25,"Southwest Expy, San Jose, CA, US",37.2977627025,-121.9314022332,https://www.inaturalist.org/observations/259663585,https://inaturalist-open-data.s3.amazonaws.com/photos/466169534/medium.jpg
-259381619,Coprinellus micaceus,mica cap,2025-01-22,"Vashon, WA 98070, USA",47.4365375,-122.4806274,https://www.inaturalist.org/observations/259381619,https://static.inaturalist.org/photos/465604246/medium.jpeg
-259015995,Coprinellus micaceus,mica cap,2025-01-19,"UC Berkeley, Berkeley, CA, US",37.8741916667,-122.2614966667,https://www.inaturalist.org/observations/259015995,https://static.inaturalist.org/photos/464857922/medium.jpg
-252132636,Daedaleopsis septentrionalis,N/A,2024-10-26,"Усольский р-н, Иркутская обл., Россия",52.8119983698,103.5390560771,https://www.inaturalist.org/observations/252132636,https://inaturalist-open-data.s3.amazonaws.com/photos/451286847/medium.jpeg
-245810120,Daedaleopsis confragosa,Thin-walled Maze Polypore,2024-09-27,"Walton County, GA, USA",33.867005,-83.692147,https://www.inaturalist.org/observations/245810120,https://inaturalist-open-data.s3.amazonaws.com/photos/438698994/medium.jpg
-243896255,Daedaleopsis septentrionalis,N/A,2024-09-07,"Ontario, CA",43.9277251556,-78.1257330623,https://www.inaturalist.org/observations/243896255,https://inaturalist-open-data.s3.amazonaws.com/photos/434972574/medium.jpeg
-259579083,Exidia crenata,American Amber Jelly Fungus,2025-01-25,"Jackson, MO 63755, USA",37.3839186,-89.6485418,https://www.inaturalist.org/observations/259579083,https://inaturalist-open-data.s3.amazonaws.com/photos/465995841/medium.jpeg
-259549441,Exidia crenata,American Amber Jelly Fungus,2025-01-25,"Piney Creek Rd, Ava, IL, US",37.89197315,-89.6382516437,https://www.inaturalist.org/observations/259549441,https://inaturalist-open-data.s3.amazonaws.com/photos/465938627/medium.jpg
-259554400,Exidia crenata,American Amber Jelly Fungus,2025-01-25,"Middlesex Fells Reservation, Stoneham, MA, US",42.4598533333,-71.0886916667,https://www.inaturalist.org/observations/259554400,https://inaturalist-open-data.s3.amazonaws.com/photos/465946328/medium.jpg
-259773840,Fomes fomentarius,Hoof Fungus,2025-01-27,"Mätäoja, 01620 Vantaa, Suomi",60.2732620695,24.8679600656,https://www.inaturalist.org/observations/259773840,https://static.inaturalist.org/photos/466391829/medium.jpeg
-259770046,Antrodiella pallescens,N/A,2025-01-27,"Kaivosrinteentie, 01610 Vantaa, Suomi",60.2722090164,24.8691918701,https://www.inaturalist.org/observations/259770046,https://static.inaturalist.org/photos/466384661/medium.jpeg
-259656406,Fomes fomentarius,Hoof Fungus,2025-01-26,"Neckenmarkt, Österreich",47.5989736804,16.546482034,https://www.inaturalist.org/observations/259656406,https://inaturalist-open-data.s3.amazonaws.com/photos/466156370/medium.jpeg
-259278602,Fuscopostia fragilis,brown-staining cheese polypore,2025-01-21,"Trinidad, CA, US",41.1592861667,-124.1291583333,https://www.inaturalist.org/observations/259278602,https://static.inaturalist.org/photos/465395990/medium.jpg
-258791218,Fuscopostia fragilis,brown-staining cheese polypore,2025-01-17,"Jepson Trail, Inverness, CA, US",38.1229471667,-122.896325,https://www.inaturalist.org/observations/258791218,https://inaturalist-open-data.s3.amazonaws.com/photos/464403449/medium.jpg
-256273027,Fuscopostia fragilis,brown-staining cheese polypore,2024-12-26,"Abzw. Kleinvollstedt - Emkendorf, 24802 Emkendorf, Deutschland",54.26646107,9.83972626,https://www.inaturalist.org/observations/256273027,https://inaturalist-open-data.s3.amazonaws.com/photos/459443304/medium.jpeg
-259296906,Ganoderma tsugae,hemlock varnish shelf,2025-01-19,"Franklin County, US-MA, US",42.5216198099,-72.5457388627,https://www.inaturalist.org/observations/259296906,https://inaturalist-open-data.s3.amazonaws.com/photos/465433674/medium.jpg
-258430510,Ganoderma tsugae,hemlock varnish shelf,2025-01-13,"Pickering, ON L1V 1E3, Canada",43.8105527778,-79.1494972222,https://www.inaturalist.org/observations/258430510,https://static.inaturalist.org/photos/463663610/medium.jpeg
-258319157,Ganoderma tsugae,hemlock varnish shelf,2025-01-12,"Mer Bleue, Ottawa, ON, CA",45.4071137047,-75.5452730904,https://www.inaturalist.org/observations/258319157,https://inaturalist-open-data.s3.amazonaws.com/photos/463435361/medium.jpg
-259444754,Hebeloma crustuliniforme,Poison Pie,2025-01-24,"חיפה, ישראל",32.7383609722,35.042337,https://www.inaturalist.org/observations/259444754,https://static.inaturalist.org/photos/465731543/medium.jpeg
-259099016,Hebeloma crustuliniforme,Poison Pie,2025-01-20,"Shiloh Ranch Regional Park, Wikiup, CA, US",38.5298770425,-122.7569540617,https://www.inaturalist.org/observations/259099016,https://inaturalist-open-data.s3.amazonaws.com/photos/465027934/medium.jpg
-257513091,Hebeloma crustuliniforme,Poison Pie,2025-01-04,"San Mateo County, CA, USA",37.3262361111,-122.1756694444,https://www.inaturalist.org/observations/257513091,https://inaturalist-open-data.s3.amazonaws.com/photos/461964877/medium.jpg
-259671597,Hydnoporia olivacea,brown-toothed crust fungus,2025-01-26,"Van Cortlandt Park, New York, NY, US",40.899425,-73.877625,https://www.inaturalist.org/observations/259671597,https://inaturalist-open-data.s3.amazonaws.com/photos/466185805/medium.jpg
-259022009,Hydnoporia olivacea,brown-toothed crust fungus,2025-01-19,"Morses Pond Access Rd, Wellesley, MA, US",42.2966883333,-71.3114383333,https://www.inaturalist.org/observations/259022009,https://static.inaturalist.org/photos/464871219/medium.jpg
-259018580,Hydnoporia olivacea,brown-toothed crust fungus,2025-01-19,"Zion Crossroads, VA 22942, USA",38.0879554722,-78.2467040833,https://www.inaturalist.org/observations/259018580,https://inaturalist-open-data.s3.amazonaws.com/photos/464862919/medium.jpeg
-259666394,Hypholoma lateritium,Brick Cap,2025-01-26,"Herzogtum Lauenburg, DE-SH, DE",53.7781384075,10.5775248539,https://www.inaturalist.org/observations/259666394,https://static.inaturalist.org/photos/466174782/medium.jpeg
-259750942,Hypholoma lateritium,Brick Cap,2025-01-25,"Connewitz, 04 Leipzig-Süd, Deutschland",51.3014027778,12.3558638889,https://www.inaturalist.org/observations/259750942,https://inaturalist-open-data.s3.amazonaws.com/photos/466347485/medium.jpeg
-259546286,Hypholoma lateritium,Brick Cap,2025-01-25,"Naturpark Lauenburgische Seen, Fredeburg, Schleswig-Holstein, DE",53.6700833333,10.7228166667,https://www.inaturalist.org/observations/259546286,https://inaturalist-open-data.s3.amazonaws.com/photos/465930667/medium.jpg
-259775188,Inonotus obliquus sterilis,Chaga,2025-01-27,"Mätäoja, 01620 Vantaa, Suomi",60.2728939869,24.868846871,https://www.inaturalist.org/observations/259775188,https://static.inaturalist.org/photos/466395709/medium.jpeg
-259660946,Inonotus obliquus,chaga,2025-01-26,"Новомосковский Адм. округ, Москва, Россия",55.5792019215,37.376849005,https://www.inaturalist.org/observations/259660946,https://inaturalist-open-data.s3.amazonaws.com/photos/466161595/medium.jpeg
-259666206,Inonotus obliquus,chaga,2025-01-26,"Солнечногорский р-н, Московская обл., Россия",56.04013765,37.10676276,https://www.inaturalist.org/observations/259666206,https://inaturalist-open-data.s3.amazonaws.com/photos/466174385/medium.jpeg
-259447224,Irpiciporus mollis,N/A,2025-01-24,"Conklin Ave, Tappan, NY, US",41.0239626416,-73.9454054319,https://www.inaturalist.org/observations/259447224,https://inaturalist-open-data.s3.amazonaws.com/photos/465736691/medium.jpg
-259296125,Irpiciporus mollis,N/A,2025-01-22,"Middleburg, FL 32068, USA",30.1406403822,-81.9567800313,https://www.inaturalist.org/observations/259296125,https://static.inaturalist.org/photos/465431646/medium.jpeg
-258584842,Irpiciporus mollis,N/A,2025-01-15,"Trinity River Audubon Center, Dallas, TX, US",32.7048333333,-96.7080533333,https://www.inaturalist.org/observations/258584842,https://inaturalist-open-data.s3.amazonaws.com/photos/463980894/medium.jpg
-259776540,Panellus stipticus,Luminescent Panellus,2025-01-27,"23847 Steinhorst, Deutschland",53.7305315863,10.5187321734,https://www.inaturalist.org/observations/259776540,https://static.inaturalist.org/photos/466397076/medium.jpeg
-259769923,Panellus stipticus,Luminescent Panellus,2025-01-27,"Курчатова, Минск, Минская область, Беларусь",53.837744,27.4714659722,https://www.inaturalist.org/observations/259769923,https://static.inaturalist.org/photos/466384380/medium.jpeg
-259743259,Panellus stipticus,Luminescent Panellus,2025-01-27,"Marburg Botanischer Garten, 35043 Marburg, Deutschland",50.807365,8.8067883333,https://www.inaturalist.org/observations/259743259,https://inaturalist-open-data.s3.amazonaws.com/photos/466331280/medium.jpeg
-259778382,Phellinus nigricans,N/A,2025-01-26,"10320 Raasepori, Suomi",60.0484046933,23.6488132475,https://www.inaturalist.org/observations/259778382,https://inaturalist-open-data.s3.amazonaws.com/photos/466401198/medium.jpeg
-259198399,Phellinus nigricans,N/A,2025-01-21,"Pearl St, Bridgewater, NS, CA",44.3774866667,-64.5322716667,https://www.inaturalist.org/observations/259198399,https://inaturalist-open-data.s3.amazonaws.com/photos/465231197/medium.jpg
-259058853,Phellinus nigricans,N/A,2025-01-20,"02970 Espoo, Suomi",60.3421720525,24.6912869811,https://www.inaturalist.org/observations/259058853,https://static.inaturalist.org/photos/464949519/medium.jpeg
-259708768,Phyllotopsis nidulans,Stinking Orange Oyster,2025-01-26,"Batona Trail, Egg Harbor City, NJ, US",39.7019716667,-74.6633133333,https://www.inaturalist.org/observations/259708768,https://static.inaturalist.org/photos/466259740/medium.jpg
-259671877,Phyllotopsis nidulans,Stinking Orange Oyster,2025-01-26,"San Francisco Peninsula Watershed, Redwood City, CA, US",37.4685397213,-122.3169687956,https://www.inaturalist.org/observations/259671877,https://static.inaturalist.org/photos/466186359/medium.jpg
-259671864,Phyllotopsis nidulans,Stinking Orange Oyster,2025-01-26,"San Francisco Peninsula Watershed, Redwood City, CA, US",37.4685369628,-122.3169595742,https://www.inaturalist.org/observations/259671864,https://static.inaturalist.org/photos/466186335/medium.jpg
-255642146,Physisporinus crocatus,N/A,2024-12-19,Bald Mountain Recreation Area South,42.752101065,-83.2237693175,https://www.inaturalist.org/observations/255642146,https://inaturalist-open-data.s3.amazonaws.com/photos/458172205/medium.jpg
-255496535,Physisporinus crocatus,N/A,2024-12-17,"Macomb County, Michigan",42.7249055556,-83.1138972222,https://www.inaturalist.org/observations/255496535,https://inaturalist-open-data.s3.amazonaws.com/photos/457871218/medium.jpg
-254931533,Physisporinus crocatus,N/A,2024-12-12,"Dekalb County, GA, USA",33.8048529722,-84.158679,https://www.inaturalist.org/observations/254931533,https://inaturalist-open-data.s3.amazonaws.com/photos/456743573/medium.jpg
-259714379,Pleurotus ostreatus,Oyster Mushroom,2025-01-27,"本州, 京都市, 京都府, JP",35.0333922481,135.7724586592,https://www.inaturalist.org/observations/259714379,https://inaturalist-open-data.s3.amazonaws.com/photos/466271477/medium.jpg
-259657612,Pleurotus ostreatus,Oyster Mushroom,2025-01-26,"S Nature Center Way, Springfield, MO, US",37.1273805,-93.242805,https://www.inaturalist.org/observations/259657612,https://inaturalist-open-data.s3.amazonaws.com/photos/466158741/medium.jpg
-259666188,Pleurotus ostreatus,Oyster Mushroom,2025-01-26,"Čortanovci, Srbija",45.1560478203,20.018248558,https://www.inaturalist.org/observations/259666188,https://static.inaturalist.org/photos/466174345/medium.jpeg
-259651983,Pluteus cervinus,Deer Mushroom,2025-01-24,"2500 Caldas da Rainha, Portugal",39.4002311943,-9.1277361819,https://www.inaturalist.org/observations/259651983,https://inaturalist-open-data.s3.amazonaws.com/photos/466143019/medium.jpeg
-259257299,Pluteus cervinus,Deer Mushroom,2025-01-22,"1300 Lisboa, Portugal",38.69898581,-9.20178697,https://www.inaturalist.org/observations/259257299,https://static.inaturalist.org/photos/465352577/medium.jpeg
-258219134,Pluteus cervinus,Deer Mushroom,2025-01-11,"Powell Butte Nature Park, Portland, OR, US",45.4896866667,-122.5113133333,https://www.inaturalist.org/observations/258219134,https://inaturalist-open-data.s3.amazonaws.com/photos/463263771/medium.jpg
-123415848,Candolleomyces candolleanus,Pale Brittlestem,2022-02-26,"San Diego County, Cleveland National Forest, US-CA, US",33.25848,-116.8020633333,https://www.inaturalist.org/observations/123415848,https://inaturalist-open-data.s3.amazonaws.com/photos/209068982/medium.jpg
-68092328,Hesperarion niger,Black Westernslug,2021-01-14,"Samuel P. Taylor State Park, Nicasio, CA, US",38.0335528333,-122.7295216667,https://www.inaturalist.org/observations/68092328,https://inaturalist-open-data.s3.amazonaws.com/photos/110171829/medium.jpg
-64065024,Candolleomyces subsingeri,N/A,2020-08-18,"Harmonie State Park, New Harmony, Indiana, USA",38.0822,-87.9562,https://www.inaturalist.org/observations/64065024,https://inaturalist-open-data.s3.amazonaws.com/photos/102932030/medium.jpeg
-258392400,Rosellinia subiculata,N/A,2025-01-13,"North Carolina, US",35.7076005695,-79.1010573915,https://www.inaturalist.org/observations/258392400,https://inaturalist-open-data.s3.amazonaws.com/photos/463586457/medium.jpeg
-256840183,Rosellinia subiculata,N/A,2024-12-30,"Evesham, NJ 08053, USA",39.8459105206,-74.8992919922,https://www.inaturalist.org/observations/256840183,https://inaturalist-open-data.s3.amazonaws.com/photos/460595865/medium.jpeg
-255297563,Rosellinia subiculata,N/A,2024-12-14,"Prospect Park, New York, NY, US",40.6616666667,-73.9719383333,https://www.inaturalist.org/observations/255297563,https://inaturalist-open-data.s3.amazonaws.com/photos/457491321/medium.jpg
-259625101,Rhytisma acerinum,Black Tar Spot,2025-01-26,"Cingoli, Marche, IT",43.3515883333,13.2127466667,https://www.inaturalist.org/observations/259625101,https://static.inaturalist.org/photos/466091401/medium.jpg
-259589539,Rhytisma acerinum,Black Tar Spot,2025-01-25,"Skelton, UK",54.7815027727,-2.9028835591,https://www.inaturalist.org/observations/259589539,https://static.inaturalist.org/photos/466017210/medium.jpeg
-259759091,Rhytisma acerinum,Black Tar Spot,2025-01-25,"Berlin, DE-BE-BR, DE",52.427465,13.12214,https://www.inaturalist.org/observations/259759091,https://inaturalist-open-data.s3.amazonaws.com/photos/466363337/medium.jpeg
-253432941,Sarcomyxa serotina,Late Oyster,2024-11-28,"Washington St, Byrnedale, PA, US",41.2906070879,-78.501969829,https://www.inaturalist.org/observations/253432941,https://inaturalist-open-data.s3.amazonaws.com/photos/453779487/medium.jpeg
-248816731,Sarcomyxa serotina,Late Oyster,2024-10-20,"Otter Lake QC, Canada",45.8728114163,-76.4338995802,https://www.inaturalist.org/observations/248816731,https://inaturalist-open-data.s3.amazonaws.com/photos/444665052/medium.jpeg
-248776356,Sarcomyxa serotina,Late Oyster,2024-10-19,"Otter Lake QC, Canada",45.8728114163,-76.4338995802,https://www.inaturalist.org/observations/248776356,https://inaturalist-open-data.s3.amazonaws.com/photos/444585597/medium.jpeg
-259676282,Scleroderma citrinum,common earthball,2025-01-26,"Leidschendam, Nederland",52.1099957695,4.4020132545,https://www.inaturalist.org/observations/259676282,https://inaturalist-open-data.s3.amazonaws.com/photos/466188094/medium.jpeg
-259546190,Scleroderma citrinum,common earthball,2025-01-25,"Naturpark Lauenburgische Seen, Fredeburg, Schleswig-Holstein, DE",53.66478,10.722975,https://www.inaturalist.org/observations/259546190,https://inaturalist-open-data.s3.amazonaws.com/photos/465930494/medium.jpg
-259349437,Scleroderma citrinum,common earthball,2025-01-23,"1640 Sint-Genesius-Rode, Belgium",50.7238666667,4.3296611111,https://www.inaturalist.org/observations/259349437,https://inaturalist-open-data.s3.amazonaws.com/photos/465539815/medium.jpeg
-246054540,Skeletocutis nivea,Hazel Bracket,2024-10-06,"Domaine Vert, Mirabel, QC, CA",45.658322,-73.908767,https://www.inaturalist.org/observations/246054540,https://inaturalist-open-data.s3.amazonaws.com/photos/439373894/medium.jpeg
-251320683,Skeletocutis nivea,Hazel Bracket,2024-11-10,"Appleton Preserve, 265 Camden Rd, Appleton, ME 04862, USA",44.307666,-69.2156144,https://www.inaturalist.org/observations/251320683,https://inaturalist-open-data.s3.amazonaws.com/photos/449664892/medium.jpg
-239540238,Skeletocutis nivea,Hazel Bracket,2024-08-31,"Кострома, Костромская обл., Россия",57.8156216667,40.9708666667,https://www.inaturalist.org/observations/239540238,https://inaturalist-open-data.s3.amazonaws.com/photos/426644043/medium.jpeg
-259376763,Steccherinum ochraceum,Ochre Spreading Tooth,2025-01-23,"University of North Texas, Denton, TX, US",33.214230941,-97.1526358593,https://www.inaturalist.org/observations/259376763,https://inaturalist-open-data.s3.amazonaws.com/photos/465594726/medium.jpg
-259486958,Steccherinum ochraceum,Ochre Spreading Tooth,2025-01-23,"Atlanta, GA, US",33.7973466667,-84.342605,https://www.inaturalist.org/observations/259486958,https://inaturalist-open-data.s3.amazonaws.com/photos/465809396/medium.jpg
-259269906,Steccherinum ochraceum,Ochre Spreading Tooth,2025-01-22,"Vine Grove, Uxbridge, England, GB",51.545805,-0.4571533333,https://www.inaturalist.org/observations/259269906,https://inaturalist-open-data.s3.amazonaws.com/photos/465378061/medium.jpg
-259788654,Stereum complicatum,crowded parchment,2025-01-27,"Norfolk County, US-MA, US",42.312946152,-71.2616354883,https://www.inaturalist.org/observations/259788654,https://inaturalist-open-data.s3.amazonaws.com/photos/466421075/medium.jpg
-259735313,Stereum complicatum,crowded parchment,2025-01-26,"Dogwood Cutoff Trail, Pittsburg, TX, US",33.0588811675,-95.0949796668,https://www.inaturalist.org/observations/259735313,https://inaturalist-open-data.s3.amazonaws.com/photos/466314335/medium.jpg
-259735184,Stereum complicatum,crowded parchment,2025-01-26,"Dogwood Trail, Pittsburg, TX, US",33.0630700045,-95.0976977649,https://www.inaturalist.org/observations/259735184,https://inaturalist-open-data.s3.amazonaws.com/photos/466314109/medium.jpg
-253543117,Suillus weaverae,Butterball,2024-11-29,"Unicoi State Park & Lodge, Helen, GA, US",34.7262616667,-83.72165,https://www.inaturalist.org/observations/253543117,https://inaturalist-open-data.s3.amazonaws.com/photos/453999755/medium.jpeg
-252979936,Suillus weaverae,Butterball,2024-11-24,"Appalachian State University, Boone, NC, US",36.213955,-81.6901466667,https://www.inaturalist.org/observations/252979936,https://inaturalist-open-data.s3.amazonaws.com/photos/452902871/medium.jpeg
-252716675,Suillus weaverae,Butterball,2024-11-22,"NW 130th St, Platte City, MO, US",39.3282418263,-94.7687789704,https://www.inaturalist.org/observations/252716675,https://inaturalist-open-data.s3.amazonaws.com/photos/452435975/medium.jpeg
-259660717,Trametes hirsuta,Hairy Bracket,2025-01-26,"Avnstrup Overdrev, Kirke Hvalsø, Region Sjælland, DK",55.5457,11.878045,https://www.inaturalist.org/observations/259660717,https://inaturalist-open-data.s3.amazonaws.com/photos/466163669/medium.jpg
-259641080,Trametes hirsuta,Hairy Bracket,2025-01-26,"6724 Acquarossa, Svizzera",46.4744444444,8.9352777778,https://www.inaturalist.org/observations/259641080,https://inaturalist-open-data.s3.amazonaws.com/photos/466125765/medium.jpeg
-259660942,Trametes hirsuta,Hairy Bracket,2025-01-26,"Новомосковский Адм. округ, Москва, Россия",55.5797433769,37.3760978458,https://www.inaturalist.org/observations/259660942,https://inaturalist-open-data.s3.amazonaws.com/photos/466161482/medium.jpeg
-259800756,Trametes versicolor,turkey-tail,2025-01-27,"Cabool, MO 65689, USA",37.1181083333,-92.0943111111,https://www.inaturalist.org/observations/259800756,https://inaturalist-open-data.s3.amazonaws.com/photos/466444632/medium.jpeg
-259774973,Trametes versicolor,turkey-tail,2025-01-27,"Beaver Dr, Gloucester, VA, US",37.4265883333,-76.5433966667,https://www.inaturalist.org/observations/259774973,https://inaturalist-open-data.s3.amazonaws.com/photos/466393947/medium.jpg
-259783604,Trametes versicolor,turkey-tail,2025-01-27,"4405-707 Vila Nova de Gaia, Portugal",41.0833694532,-8.6358828843,https://www.inaturalist.org/observations/259783604,https://inaturalist-open-data.s3.amazonaws.com/photos/466411427/medium.jpeg
-259716848,Trichaptum biforme,violet-toothed polypore,2025-01-26,"Greensboro, NC 27410, USA",36.1044882907,-79.8764885589,https://www.inaturalist.org/observations/259716848,https://inaturalist-open-data.s3.amazonaws.com/photos/466276455/medium.jpeg
-259655825,Trichaptum biforme,violet-toothed polypore,2025-01-26,"Bronx, NY 10470, USA",40.897450444,-73.8780219218,https://www.inaturalist.org/observations/259655825,https://inaturalist-open-data.s3.amazonaws.com/photos/466154989/medium.jpeg
-259680822,Trichaptum biforme,violet-toothed polypore,2025-01-26,"Van Cortlandt Park, New York, NY, US",40.8975416667,-73.8769133333,https://www.inaturalist.org/observations/259680822,https://inaturalist-open-data.s3.amazonaws.com/photos/466204306/medium.jpg
-255628742,Trichoderma sulphureum,N/A,2024-12-19,"Searsmont, ME 04973, USA",44.3630361213,-69.2519434302,https://www.inaturalist.org/observations/255628742,https://inaturalist-open-data.s3.amazonaws.com/photos/458142732/medium.jpg
-255908928,Stereum complicatum,crowded parchment,2024-12-17,"Wilkes County, GA, USA",33.692633,-82.885333,https://www.inaturalist.org/observations/255908928,https://inaturalist-open-data.s3.amazonaws.com/photos/458699714/medium.jpg
-254457919,Trichoderma sulphureum,N/A,2024-12-07,"Westbrook, ME 04092, USA",43.6985106703,-70.3447966371,https://www.inaturalist.org/observations/254457919,https://inaturalist-open-data.s3.amazonaws.com/photos/455785526/medium.jpg
-257026832,Vararia investiens,N/A,2024-12-29,"Libby Rd, Litchfield, ME, US",44.1625138333,-69.96302,https://www.inaturalist.org/observations/257026832,https://inaturalist-open-data.s3.amazonaws.com/photos/460984112/medium.jpg
-250439052,Vararia investiens,N/A,2024-11-03,"Double L Street, Freeport, ME, USA",43.8513260417,-70.1068775617,https://www.inaturalist.org/observations/250439052,https://inaturalist-open-data.s3.amazonaws.com/photos/447903139/medium.jpg
-250049851,Vararia investiens,N/A,2024-11-01,"Lincolnville, ME 04849, USA",44.3353836964,-69.1057078616,https://www.inaturalist.org/observations/250049851,https://inaturalist-open-data.s3.amazonaws.com/photos/447110801/medium.jpg
-255285521,Xenasmatella vaga,yellow cobweb,2024-12-15,"50374 Erftstadt, Germany",50.7948237833,6.8461125833,https://www.inaturalist.org/observations/255285521,https://inaturalist-open-data.s3.amazonaws.com/photos/457466145/medium.jpeg
-255147500,Xenasmatella vaga,yellow cobweb,2024-12-14,"UCSC Campus Natural Reserve, Santa Cruz, CA, US",37.0164717728,-122.0751567874,https://www.inaturalist.org/observations/255147500,https://inaturalist-open-data.s3.amazonaws.com/photos/457180017/medium.jpg
-252166994,Xenasmatella vaga,yellow cobweb,2024-11-18,"Royal Victoria Country Park, Southampton, England, GB",50.8659966667,-1.3375116667,https://www.inaturalist.org/observations/252166994,https://inaturalist-open-data.s3.amazonaws.com/photos/451355714/medium.jpeg
-259331230,Xylodon paradoxus,split porecrust,2025-01-23,"S'vislach, Belowezskaya Pushcha, BY-HR, BY",52.8725268341,24.087636061,https://www.inaturalist.org/observations/259331230,https://inaturalist-open-data.s3.amazonaws.com/photos/465504772/medium.jpeg
-259466872,Xylodon paradoxus,split porecrust,2025-01-22,"Montejo de la Sierra, 28190, Madrid, España",41.1034787607,-3.4896501526,https://www.inaturalist.org/observations/259466872,https://inaturalist-open-data.s3.amazonaws.com/photos/465775503/medium.jpeg
-258309677,Xylodon paradoxus,split porecrust,2025-01-12,"Upper Possum Creek Rd, Gate City, VA, US",36.6190333333,-82.7458633333,https://www.inaturalist.org/observations/258309677,https://inaturalist-open-data.s3.amazonaws.com/photos/463415763/medium.jpg
-259782065,Didymium spongiosum,Dog Sick Slime Mould,2025-01-27,"Setúbal, Portugal",38.5200148997,-8.9220682997,https://www.inaturalist.org/observations/259782065,https://inaturalist-open-data.s3.amazonaws.com/photos/466408117/medium.jpg
-259763659,Hemitrichia serpula,Pretzel slime mold,2025-01-27,"Via di San Biagio, Levico Terme, Trentino-Alto Adige, IT",46.0181305,11.2891033333,https://www.inaturalist.org/observations/259763659,https://static.inaturalist.org/photos/466372284/medium.jpg
-259738365,Hemitrichia serpula,Pretzel slime mold,2025-01-27,"Hokkaido, JP",42.9456049763,141.6037340492,https://www.inaturalist.org/observations/259738365,https://inaturalist-open-data.s3.amazonaws.com/photos/466320111/medium.jpg
-259268428,Lycogala epidendrum,Wolf's Milk,2025-01-22,"Vilkaviškis District Municipality, Lithuania",54.4862903,22.820228,https://www.inaturalist.org/observations/259268428,https://inaturalist-open-data.s3.amazonaws.com/photos/465375028/medium.jpg
-259219629,Lycogala epidendrum,Wolf's Milk,2025-01-21,"Felton, CA, USA",37.03575,-122.0586861111,https://www.inaturalist.org/observations/259219629,https://inaturalist-open-data.s3.amazonaws.com/photos/465276233/medium.jpeg
-258869305,Lycogala epidendrum,Wolf's Milk,2025-01-18,"Natick, MA, USA",42.2540416055,-71.3337857515,https://www.inaturalist.org/observations/258869305,https://inaturalist-open-data.s3.amazonaws.com/photos/464554774/medium.jpeg
+scientific_name,common_name,image_url,taxa_url
+Angelina rufescens,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/463140339/medium.jpg,https://www.inaturalist.org/taxa/704775
+Angelina rufescens,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/458171920/medium.jpg,https://www.inaturalist.org/taxa/704775
+Angelina rufescens,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/452835940/medium.jpeg,https://www.inaturalist.org/taxa/704775
+Calycina citrina,Yellow Fairy Cups,https://inaturalist-open-data.s3.amazonaws.com/photos/467455704/medium.jpg,https://www.inaturalist.org/taxa/955949
+Calycina citrina,Yellow Fairy Cups,https://inaturalist-open-data.s3.amazonaws.com/photos/467442316/medium.jpeg,https://www.inaturalist.org/taxa/955949
+Calycina citrina,Yellow Fairy Cups,https://inaturalist-open-data.s3.amazonaws.com/photos/467413115/medium.jpeg,https://www.inaturalist.org/taxa/955949
+Cerrena unicolor,Mossy Maze Polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/467751112/medium.jpg,https://www.inaturalist.org/taxa/194476
+Cerrena unicolor,Mossy Maze Polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/467428408/medium.jpeg,https://www.inaturalist.org/taxa/194476
+Cerrena unicolor,Mossy Maze Polypore,https://static.inaturalist.org/photos/467782876/medium.jpeg,https://www.inaturalist.org/taxa/194476
+Coprinellus micaceus,mica cap,https://static.inaturalist.org/photos/467854818/medium.jpeg,https://www.inaturalist.org/taxa/56318
+Coprinellus micaceus,mica cap,https://inaturalist-open-data.s3.amazonaws.com/photos/467270502/medium.jpeg,https://www.inaturalist.org/taxa/56318
+Coprinellus micaceus,mica cap,https://inaturalist-open-data.s3.amazonaws.com/photos/467331546/medium.jpg,https://www.inaturalist.org/taxa/56318
+Daedaleopsis septentrionalis,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/451286847/medium.jpeg,https://www.inaturalist.org/taxa/499999
+Daedaleopsis septentrionalis,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/434972574/medium.jpeg,https://www.inaturalist.org/taxa/499999
+Exidia crenata,American Amber Jelly Fungus,https://static.inaturalist.org/photos/467837294/medium.jpg,https://www.inaturalist.org/taxa/879877
+Exidia crenata,American Amber Jelly Fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/467741554/medium.jpeg,https://www.inaturalist.org/taxa/879877
+Exidia crenata,American Amber Jelly Fungus,https://static.inaturalist.org/photos/467729154/medium.jpg,https://www.inaturalist.org/taxa/879877
+Fomes fomentarius,Hoof Fungus,https://static.inaturalist.org/photos/467821442/medium.jpeg,https://www.inaturalist.org/taxa/127510
+Fomes fomentarius,Hoof Fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/467840121/medium.jpg,https://www.inaturalist.org/taxa/127510
+Fomes fomentarius,Hoof Fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/467663215/medium.jpeg,https://www.inaturalist.org/taxa/127510
+Fuscopostia fragilis,brown-staining cheese polypore,https://static.inaturalist.org/photos/465395990/medium.jpg,https://www.inaturalist.org/taxa/959326
+Fuscopostia fragilis,brown-staining cheese polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/464403449/medium.jpg,https://www.inaturalist.org/taxa/959326
+Fuscopostia fragilis,brown-staining cheese polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/459443304/medium.jpeg,https://www.inaturalist.org/taxa/959326
+Ganoderma tsugae,hemlock varnish shelf,https://inaturalist-open-data.s3.amazonaws.com/photos/466843965/medium.jpg,https://www.inaturalist.org/taxa/63274
+Ganoderma tsugae,hemlock varnish shelf,https://inaturalist-open-data.s3.amazonaws.com/photos/466295975/medium.jpg,https://www.inaturalist.org/taxa/63274
+Ganoderma tsugae,hemlock varnish shelf,https://inaturalist-open-data.s3.amazonaws.com/photos/465433674/medium.jpg,https://www.inaturalist.org/taxa/63274
+Hebeloma crustuliniforme,Poison Pie,https://static.inaturalist.org/photos/465731543/medium.jpeg,https://www.inaturalist.org/taxa/194307
+Hebeloma crustuliniforme,Poison Pie,https://inaturalist-open-data.s3.amazonaws.com/photos/465027934/medium.jpg,https://www.inaturalist.org/taxa/194307
+Hebeloma crustuliniforme,Poison Pie,https://inaturalist-open-data.s3.amazonaws.com/photos/461964877/medium.jpg,https://www.inaturalist.org/taxa/194307
+Hydnoporia olivacea,brown-toothed crust fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/467836105/medium.jpg,https://www.inaturalist.org/taxa/1038656
+Hydnoporia olivacea,brown-toothed crust fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/467670494/medium.jpeg,https://www.inaturalist.org/taxa/1038656
+Hydnoporia olivacea,brown-toothed crust fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/467665916/medium.jpg,https://www.inaturalist.org/taxa/1038656
+Hypholoma lateritium,Brick Cap,https://static.inaturalist.org/photos/466174782/medium.jpeg,https://www.inaturalist.org/taxa/130203
+Hypholoma lateritium,Brick Cap,https://inaturalist-open-data.s3.amazonaws.com/photos/466347485/medium.jpeg,https://www.inaturalist.org/taxa/130203
+Hypholoma lateritium,Brick Cap,https://inaturalist-open-data.s3.amazonaws.com/photos/465930667/medium.jpg,https://www.inaturalist.org/taxa/130203
+Inonotus obliquus,chaga,https://inaturalist-open-data.s3.amazonaws.com/photos/467842060/medium.jpg,https://www.inaturalist.org/taxa/127021
+Inonotus obliquus,chaga,https://inaturalist-open-data.s3.amazonaws.com/photos/467613374/medium.jpeg,https://www.inaturalist.org/taxa/127021
+Inonotus obliquus,chaga,https://inaturalist-open-data.s3.amazonaws.com/photos/467613322/medium.jpeg,https://www.inaturalist.org/taxa/127021
+Irpiciporus mollis,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/467635517/medium.jpg,https://www.inaturalist.org/taxa/1514175
+Irpiciporus mollis,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/465736691/medium.jpg,https://www.inaturalist.org/taxa/1514175
+Irpiciporus mollis,N/A,https://static.inaturalist.org/photos/465431646/medium.jpeg,https://www.inaturalist.org/taxa/1514175
+Panellus stipticus,Luminescent Panellus,https://inaturalist-open-data.s3.amazonaws.com/photos/467896858/medium.jpg,https://www.inaturalist.org/taxa/68309
+Panellus stipticus,Luminescent Panellus,https://inaturalist-open-data.s3.amazonaws.com/photos/467850451/medium.jpeg,https://www.inaturalist.org/taxa/68309
+Panellus stipticus,Luminescent Panellus,https://inaturalist-open-data.s3.amazonaws.com/photos/467841316/medium.jpeg,https://www.inaturalist.org/taxa/68309
+Phellinus nigricans,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/467353908/medium.jpeg,https://www.inaturalist.org/taxa/605606
+Phellinus nigricans,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/466943664/medium.jpeg,https://www.inaturalist.org/taxa/605606
+Phellinus nigricans,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/466401198/medium.jpeg,https://www.inaturalist.org/taxa/605606
+Phyllotopsis nidulans,Stinking Orange Oyster,https://inaturalist-open-data.s3.amazonaws.com/photos/467745018/medium.jpg,https://www.inaturalist.org/taxa/52529
+Phyllotopsis nidulans,Stinking Orange Oyster,https://static.inaturalist.org/photos/467670355/medium.jpeg,https://www.inaturalist.org/taxa/52529
+Phyllotopsis nidulans,Stinking Orange Oyster,https://inaturalist-open-data.s3.amazonaws.com/photos/467705454/medium.jpeg,https://www.inaturalist.org/taxa/52529
+Physisporinus crocatus,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/458172205/medium.jpg,https://www.inaturalist.org/taxa/1039875
+Physisporinus crocatus,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/457871218/medium.jpg,https://www.inaturalist.org/taxa/1039875
+Physisporinus crocatus,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/456743573/medium.jpg,https://www.inaturalist.org/taxa/1039875
+Pleurotus ostreatus,Oyster Mushroom,https://static.inaturalist.org/photos/467829701/medium.jpeg,https://www.inaturalist.org/taxa/48494
+Pleurotus ostreatus,Oyster Mushroom,https://inaturalist-open-data.s3.amazonaws.com/photos/467827960/medium.jpeg,https://www.inaturalist.org/taxa/48494
+Pleurotus ostreatus,Oyster Mushroom,https://inaturalist-open-data.s3.amazonaws.com/photos/467804354/medium.jpeg,https://www.inaturalist.org/taxa/48494
+Pluteus cervinus,Deer Mushroom,https://inaturalist-open-data.s3.amazonaws.com/photos/466143019/medium.jpeg,https://www.inaturalist.org/taxa/60782
+Pluteus cervinus,Deer Mushroom,https://static.inaturalist.org/photos/465352577/medium.jpeg,https://www.inaturalist.org/taxa/60782
+Pluteus cervinus,Deer Mushroom,https://inaturalist-open-data.s3.amazonaws.com/photos/463263771/medium.jpg,https://www.inaturalist.org/taxa/60782
+Rosellinia subiculata,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/463586457/medium.jpeg,https://www.inaturalist.org/taxa/352268
+Rosellinia subiculata,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/460595865/medium.jpeg,https://www.inaturalist.org/taxa/352268
+Rosellinia subiculata,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/457491321/medium.jpg,https://www.inaturalist.org/taxa/352268
+Rhytisma acerinum,Black Tar Spot,https://inaturalist-open-data.s3.amazonaws.com/photos/467369031/medium.jpg,https://www.inaturalist.org/taxa/130935
+Rhytisma acerinum,Black Tar Spot,https://inaturalist-open-data.s3.amazonaws.com/photos/467137338/medium.jpg,https://www.inaturalist.org/taxa/130935
+Rhytisma acerinum,Black Tar Spot,https://static.inaturalist.org/photos/466793026/medium.jpeg,https://www.inaturalist.org/taxa/130935
+Scleroderma citrinum,common earthball,https://inaturalist-open-data.s3.amazonaws.com/photos/467883449/medium.jpeg,https://www.inaturalist.org/taxa/55927
+Scleroderma citrinum,common earthball,https://static.inaturalist.org/photos/467683877/medium.jpeg,https://www.inaturalist.org/taxa/55927
+Scleroderma citrinum,common earthball,https://inaturalist-open-data.s3.amazonaws.com/photos/467141551/medium.jpeg,https://www.inaturalist.org/taxa/55927
+Skeletocutis nivea,Hazel Bracket,https://inaturalist-open-data.s3.amazonaws.com/photos/449664892/medium.jpg,https://www.inaturalist.org/taxa/352376
+Skeletocutis nivea,Hazel Bracket,https://inaturalist-open-data.s3.amazonaws.com/photos/439373894/medium.jpeg,https://www.inaturalist.org/taxa/352376
+Skeletocutis nivea,Hazel Bracket,https://inaturalist-open-data.s3.amazonaws.com/photos/426644043/medium.jpeg,https://www.inaturalist.org/taxa/352376
+Steccherinum ochraceum,Ochre Spreading Tooth,https://inaturalist-open-data.s3.amazonaws.com/photos/467666180/medium.jpg,https://www.inaturalist.org/taxa/118096
+Steccherinum ochraceum,Ochre Spreading Tooth,https://inaturalist-open-data.s3.amazonaws.com/photos/467422964/medium.jpeg,https://www.inaturalist.org/taxa/118096
+Steccherinum ochraceum,Ochre Spreading Tooth,https://inaturalist-open-data.s3.amazonaws.com/photos/467782741/medium.jpeg,https://www.inaturalist.org/taxa/118096
+Stereum complicatum,crowded parchment,https://inaturalist-open-data.s3.amazonaws.com/photos/467740886/medium.jpeg,https://www.inaturalist.org/taxa/196842
+Stereum complicatum,crowded parchment,https://inaturalist-open-data.s3.amazonaws.com/photos/467697444/medium.jpeg,https://www.inaturalist.org/taxa/196842
+Stereum complicatum,crowded parchment,https://static.inaturalist.org/photos/467684051/medium.jpeg,https://www.inaturalist.org/taxa/196842
+Suillus weaverae,Butterball,https://inaturalist-open-data.s3.amazonaws.com/photos/453999755/medium.jpeg,https://www.inaturalist.org/taxa/543035
+Suillus weaverae,Butterball,https://inaturalist-open-data.s3.amazonaws.com/photos/452902871/medium.jpeg,https://www.inaturalist.org/taxa/543035
+Suillus weaverae,Butterball,https://inaturalist-open-data.s3.amazonaws.com/photos/452435975/medium.jpeg,https://www.inaturalist.org/taxa/543035
+Trametes hirsuta,Hairy Bracket,https://inaturalist-open-data.s3.amazonaws.com/photos/467885409/medium.jpg,https://www.inaturalist.org/taxa/116695
+Trametes hirsuta,Hairy Bracket,https://inaturalist-open-data.s3.amazonaws.com/photos/467851569/medium.jpeg,https://www.inaturalist.org/taxa/116695
+Trametes hirsuta,Hairy Bracket,https://inaturalist-open-data.s3.amazonaws.com/photos/467604875/medium.jpg,https://www.inaturalist.org/taxa/116695
+Trametes versicolor,turkey-tail,https://static.inaturalist.org/photos/467842464/medium.jpeg,https://www.inaturalist.org/taxa/54134
+Trametes versicolor,turkey-tail,https://static.inaturalist.org/photos/467838591/medium.jpeg,https://www.inaturalist.org/taxa/54134
+Trametes versicolor,turkey-tail,https://inaturalist-open-data.s3.amazonaws.com/photos/467826701/medium.jpg,https://www.inaturalist.org/taxa/54134
+Trichaptum biforme,violet-toothed polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/467803228/medium.jpeg,https://www.inaturalist.org/taxa/125705
+Trichaptum biforme,violet-toothed polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/467836762/medium.jpeg,https://www.inaturalist.org/taxa/125705
+Trichaptum biforme,violet-toothed polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/467718769/medium.jpg,https://www.inaturalist.org/taxa/125705
+Trichoderma sulphureum,N/A,https://static.inaturalist.org/photos/461092694/medium.jpg,https://www.inaturalist.org/taxa/525060
+Trichoderma sulphureum,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/459996069/medium.jpeg,https://www.inaturalist.org/taxa/525060
+Trichoderma sulphureum,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/459961181/medium.jpeg,https://www.inaturalist.org/taxa/525060
+Vararia investiens,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/460984112/medium.jpg,https://www.inaturalist.org/taxa/384715
+Vararia investiens,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/447903139/medium.jpg,https://www.inaturalist.org/taxa/384715
+Vararia investiens,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/447110801/medium.jpg,https://www.inaturalist.org/taxa/384715
+Xenasmatella vaga,yellow cobweb,https://inaturalist-open-data.s3.amazonaws.com/photos/457466145/medium.jpeg,https://www.inaturalist.org/taxa/352847
+Xenasmatella vaga,yellow cobweb,https://inaturalist-open-data.s3.amazonaws.com/photos/457180017/medium.jpg,https://www.inaturalist.org/taxa/352847
+Xenasmatella vaga,yellow cobweb,https://inaturalist-open-data.s3.amazonaws.com/photos/451355714/medium.jpeg,https://www.inaturalist.org/taxa/352847
+Xylodon paradoxus,split porecrust,https://inaturalist-open-data.s3.amazonaws.com/photos/466507282/medium.jpg,https://www.inaturalist.org/taxa/785474
+Xylodon paradoxus,split porecrust,https://inaturalist-open-data.s3.amazonaws.com/photos/465504772/medium.jpeg,https://www.inaturalist.org/taxa/785474
+Xylodon paradoxus,split porecrust,https://inaturalist-open-data.s3.amazonaws.com/photos/465775503/medium.jpeg,https://www.inaturalist.org/taxa/785474
+Lycogala epidendrum,Wolf's Milk,https://inaturalist-open-data.s3.amazonaws.com/photos/467613415/medium.jpeg,https://www.inaturalist.org/taxa/47680
+Lycogala epidendrum,Wolf's Milk,https://inaturalist-open-data.s3.amazonaws.com/photos/466889146/medium.jpg,https://www.inaturalist.org/taxa/47680
+Lycogala epidendrum,Wolf's Milk,https://inaturalist-open-data.s3.amazonaws.com/photos/466825006/medium.jpg,https://www.inaturalist.org/taxa/47680

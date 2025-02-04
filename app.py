@@ -23,7 +23,6 @@ logger = logging.getLogger(__name__)
 # Initialize Flask app
 app = Flask(__name__)
 
-
 # "origins": ",os.getenv("CORS_ALLOWED_ORIGINS "").split(",") if os.getenv("CORS_ALLOWED_ORIGINS") else [],
 #            "origins": os.getenv("CORS_ALLOWED_ORIGINS").split(","),
 
@@ -37,13 +36,12 @@ CORS(
     resources={
         r"/*": {
             "origins": os.getenv("CORS_ALLOWED_ORIGINS", "http://localhost:3000").split(",")
-#            "methods": os.getenv("CORS_ALLOWED_METHODS", "GET,POST,OPTIONS,PUT,DELETE").split(","),
-#            "allow_headers": os.getenv("CORS_ALLOWED_HEADERS", "Content-Type,Authorization").split(","),
-#            "supports_credentials": os.getenv("CORS_SUPPORTS_CREDENTIALS", "true").lower() == "true",
+            #            "methods": os.getenv("CORS_ALLOWED_METHODS", "GET,POST,OPTIONS,PUT,DELETE").split(","),
+            #            "allow_headers": os.getenv("CORS_ALLOWED_HEADERS", "Content-Type,Authorization").split(","),
+            #            "supports_credentials": os.getenv("CORS_SUPPORTS_CREDENTIALS", "true").lower() == "true",
         }
     }
 )
-
 
 # Global state for current file
 current_file: Dict[str, Any] = {
@@ -51,6 +49,7 @@ current_file: Dict[str, Any] = {
     "directory": None,
     "data": None,
 }
+
 
 # Helper Functions
 def load_csv_data(file_path: str) -> Optional[pd.DataFrame]:
@@ -62,6 +61,7 @@ def load_csv_data(file_path: str) -> Optional[pd.DataFrame]:
         logger.error(f"Error loading CSV: {str(e)}")
         return None
 
+
 # Load initial data
 if os.path.exists(Config.INITIAL_FILE_PATH):
     current_file["path"] = Config.INITIAL_FILE_PATH
@@ -70,6 +70,7 @@ if os.path.exists(Config.INITIAL_FILE_PATH):
 else:
     logger.warning(f"Initial file not found: {Config.INITIAL_FILE_PATH}")
     current_file["data"] = pd.DataFrame(columns=["image_url", "scientific_name", "common_name"])
+
 
 def load_pronunciation_cache() -> Dict[str, str]:
     """Load pronunciation cache from a CSV file."""
@@ -108,6 +109,11 @@ def save_pronunciation_cache(cache: Dict[str, str]) -> None:
 
 
 # Flask Routes
+@app.route('/wakeup', methods=['GET'])
+def wakeup():
+    return "Server is awake!", 200
+
+
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
 def serve(path: str):
@@ -116,11 +122,13 @@ def serve(path: str):
         return send_from_directory(app.static_folder, path)
     return send_from_directory(app.static_folder, "index.html")
 
+
 @app.route("/api/data")
 @cross_origin()
 def get_data():
     """Example API endpoint."""
     return {"message": "Hello from Flask!"}
+
 
 @app.route("/get_hints", methods=["GET"])
 def get_hints():
@@ -140,6 +148,7 @@ def get_hints():
         logger.error(f"Error in get_hints: {str(e)}")
         return jsonify({"error": str(e)}), 500
 
+
 @app.route("/check_answer", methods=["POST"])
 def check_answer():
     """Check if the user's answer is correct."""
@@ -155,6 +164,7 @@ def check_answer():
         return jsonify({"correct": True, "message": f"Correct! ({common_name})"}), 200
 
     return jsonify({"correct": False, "message": "Incorrect. Try again!"}), 200
+
 
 # Add new route to load all cards at once
 @app.route("/load_cards", methods=["POST"])
@@ -182,17 +192,21 @@ def load_cards():
         traceback.print_exc()
         return jsonify({"error": str(e)}), 500
 
+
 # Modify the load_csv_data function to return all data without shuffling
 def load_csv_data(file_path: str) -> Optional[pd.DataFrame]:
     """Load CSV data and return DataFrame."""
     try:
-# ,"observer_name",
-#                                        "observation_year","observation_url"
-        data = pd.read_csv(file_path)[["image_url", "scientific_name", "common_name","taxa_url","observer_name","observation_year","observation_url"]].dropna()
+        # ,"observer_name",
+        #                                        "observation_year","observation_url"
+        data = pd.read_csv(file_path)[
+            ["image_url", "scientific_name", "common_name", "taxa_url", "observer_name", "observation_year",
+             "observation_url"]].dropna()
         return data
     except Exception as e:
         logger.error(f"Error loading CSV: {str(e)}")
         return None
+
 
 @app.route("/current_file_info", methods=["GET"])
 def get_current_file_info():
@@ -205,6 +219,7 @@ def get_current_file_info():
             }
         ), 200
     return jsonify({"error": "No file currently selected"}), 404
+
 
 @app.route("/get_image", methods=["GET"])
 def get_image():
@@ -220,6 +235,7 @@ def get_image():
         logger.error(f"Error fetching image: {str(e)}")
         return jsonify({"error": str(e)}), 500
 
+
 @app.route("/list_csv_files", methods=["GET"])
 def list_csv_files():
     """List CSV files in a directory."""
@@ -228,9 +244,10 @@ def list_csv_files():
         directory_path = Config.SPECIES_DATA_DIR
     else:
         directory_path = Config.UPLOADS_DIR
-#    directory_path = os.path.join(Config.BASE_DATA_DIR, directory)
+    #    directory_path = os.path.join(Config.BASE_DATA_DIR, directory)
     csv_files = [f for f in os.listdir(directory_path) if f.endswith(".csv")]
     return jsonify({"files": csv_files}), 200
+
 
 def get_taxon_id(scientific_name):
     """Fetch the taxon_id for a given scientific name from iNaturalist."""
@@ -245,6 +262,7 @@ def get_taxon_id(scientific_name):
 
     print(f"No taxon_id found for {scientific_name}.")
     return None
+
 
 @app.route("/upload_csv", methods=["POST"])
 def upload_csv():
@@ -293,6 +311,7 @@ def upload_csv():
 
     return jsonify({"error": "Invalid file type"}), 400
 
+
 @app.route("/select_csv", methods=["POST"])
 def select_csv():
     """Select a CSV file for flashcards."""
@@ -324,6 +343,7 @@ def select_csv():
         logger.error(f"Error in select_csv: {str(e)}")
         traceback.print_exc()
         return jsonify({"error": str(e)}), 500
+
 
 @app.route("/delete_csv/<filename>", methods=["DELETE"])
 def delete_csv(filename: str):
@@ -436,6 +456,7 @@ def exit_application():
     except Exception as e:
         logger.error(f"Exit application error: {str(e)}")
         return jsonify({"error": str(e)}), 500
+
 
 if __name__ == "__main__":
     app.run(debug=True)

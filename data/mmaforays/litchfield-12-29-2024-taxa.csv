@@ -1,20 +1,20 @@
-id,scientific_name,common_name,image_url,taxa_url
-972793,Apioperdon pyriforme,Pear-shaped Puffball,https://inaturalist-open-data.s3.amazonaws.com/photos/39899941/medium.jpg,https://www.inaturalist.org/taxa/972793
-211220,Berkleasmium concinnum,N/A,https://static.inaturalist.org/photos/15295312/medium.jpg,https://www.inaturalist.org/taxa/211220
-955949,Calycina citrina,Yellow Fairy Cups,https://inaturalist-open-data.s3.amazonaws.com/photos/235404053/medium.jpeg,https://www.inaturalist.org/taxa/955949
-194476,Cerrena unicolor,Mossy Maze Polypore,https://static.inaturalist.org/photos/14764926/medium.jpeg,https://www.inaturalist.org/taxa/194476
-350663,Diatrype stigma,common tarcrust fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/12843785/medium.jpg,https://www.inaturalist.org/taxa/350663
-55568,Exidia glandulosa,Black Witches' Butter,https://inaturalist-open-data.s3.amazonaws.com/photos/160018244/medium.jpeg,https://www.inaturalist.org/taxa/55568
-127510,Fomes fomentarius,Hoof Fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/11787994/medium.jpeg,https://www.inaturalist.org/taxa/127510
-48473,Ganoderma applanatum,artist's bracket,https://inaturalist-open-data.s3.amazonaws.com/photos/87978650/medium.jpeg,https://www.inaturalist.org/taxa/48473
-851969,Gibellula arachnophila,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/2702742/medium.jpg,https://www.inaturalist.org/taxa/851969
-130919,Ischnoderma resinosum,Resinous Polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/11655956/medium.jpg,https://www.inaturalist.org/taxa/130919
-979413,Jackrogersella cohaerens,Beechwood Woodwart,https://inaturalist-open-data.s3.amazonaws.com/photos/58113409/medium.jpg,https://www.inaturalist.org/taxa/979413
-128051,Kretzschmaria deusta,Brittle Cinder,https://inaturalist-open-data.s3.amazonaws.com/photos/287650544/medium.jpeg,https://www.inaturalist.org/taxa/128051
-155122,Phlebia radiata,Wrinkled Crust,https://inaturalist-open-data.s3.amazonaws.com/photos/188812/medium.jpg,https://www.inaturalist.org/taxa/155122
-352268,Rosellinia subiculata,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/4133354/medium.,https://www.inaturalist.org/taxa/352268
-196842,Stereum complicatum,crowded parchment,https://inaturalist-open-data.s3.amazonaws.com/photos/10935746/medium.jpg,https://www.inaturalist.org/taxa/196842
-54134,Trametes versicolor,turkey-tail,https://inaturalist-open-data.s3.amazonaws.com/photos/170051685/medium.jpg,https://www.inaturalist.org/taxa/54134
-125705,Trichaptum biforme,violet-toothed polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/412458489/medium.jpeg,https://www.inaturalist.org/taxa/125705
-525060,Trichoderma sulphureum,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/47463035/medium.jpg,https://www.inaturalist.org/taxa/525060
-384715,Vararia investiens,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/158267520/medium.jpeg,https://www.inaturalist.org/taxa/384715
+id,scientific_name,common_name,image_url,taxa_url,observer_name,observation_year,observation_url
+972793,Apioperdon pyriforme,Pear-shaped Puffball,https://inaturalist-open-data.s3.amazonaws.com/photos/39899941/medium.jpg,https://www.inaturalist.org/taxa/972793,michaelachan,2025,https://www.inaturalist.org/observations/260539191
+211220,Berkleasmium concinnum,N/A,https://static.inaturalist.org/photos/15295312/medium.jpg,https://www.inaturalist.org/taxa/211220,imasongster,2024,https://www.inaturalist.org/observations/255535627
+955949,Calycina citrina,Yellow Fairy Cups,https://inaturalist-open-data.s3.amazonaws.com/photos/235404053/medium.jpeg,https://www.inaturalist.org/taxa/955949,nicolasdperez,2025,https://www.inaturalist.org/observations/260310974
+194476,Cerrena unicolor,Mossy Maze Polypore,https://static.inaturalist.org/photos/14764926/medium.jpeg,https://www.inaturalist.org/taxa/194476,gabriele_lagrasta,2025,https://www.inaturalist.org/observations/260515475
+350663,Diatrype stigma,common tarcrust fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/12843785/medium.jpg,https://www.inaturalist.org/taxa/350663,denniskent,2025,https://www.inaturalist.org/observations/260518710
+55568,Exidia glandulosa,Black Witches' Butter,https://inaturalist-open-data.s3.amazonaws.com/photos/160018244/medium.jpeg,https://www.inaturalist.org/taxa/55568,edieirving,2025,https://www.inaturalist.org/observations/260551144
+127510,Fomes fomentarius,Hoof Fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/11787994/medium.jpeg,https://www.inaturalist.org/taxa/127510,lignator,2025,https://www.inaturalist.org/observations/260538229
+48473,Ganoderma applanatum,artist's bracket,https://inaturalist-open-data.s3.amazonaws.com/photos/87978650/medium.jpeg,https://www.inaturalist.org/taxa/48473,kalashnikova-ekaterina,2025,https://www.inaturalist.org/observations/260541233
+851969,Gibellula arachnophila,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/2702742/medium.jpg,https://www.inaturalist.org/taxa/851969,ericht,2024,https://www.inaturalist.org/observations/255810741
+130919,Ischnoderma resinosum,Resinous Polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/11655956/medium.jpg,https://www.inaturalist.org/taxa/130919,esther_woeckener,2025,https://www.inaturalist.org/observations/260488703
+979413,Jackrogersella cohaerens,Beechwood Woodwart,https://inaturalist-open-data.s3.amazonaws.com/photos/58113409/medium.jpg,https://www.inaturalist.org/taxa/979413,wojtest,2025,https://www.inaturalist.org/observations/260511172
+128051,Kretzschmaria deusta,Brittle Cinder,https://inaturalist-open-data.s3.amazonaws.com/photos/287650544/medium.jpeg,https://www.inaturalist.org/taxa/128051,henning91,2025,https://www.inaturalist.org/observations/260497240
+155122,Phlebia radiata,Wrinkled Crust,https://inaturalist-open-data.s3.amazonaws.com/photos/188812/medium.jpg,https://www.inaturalist.org/taxa/155122,maghielv,2025,https://www.inaturalist.org/observations/260548939
+352268,Rosellinia subiculata,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/4133354/medium.,https://www.inaturalist.org/taxa/352268,kim_fleming,2025,https://www.inaturalist.org/observations/260543568
+196842,Stereum complicatum,crowded parchment,https://inaturalist-open-data.s3.amazonaws.com/photos/10935746/medium.jpg,https://www.inaturalist.org/taxa/196842,reyanshjogi,2025,https://www.inaturalist.org/observations/260550732
+54134,Trametes versicolor,turkey-tail,https://inaturalist-open-data.s3.amazonaws.com/photos/170051685/medium.jpg,https://www.inaturalist.org/taxa/54134,babyblueeyes,2025,https://www.inaturalist.org/observations/260552388
+125705,Trichaptum biforme,violet-toothed polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/412458489/medium.jpeg,https://www.inaturalist.org/taxa/125705,petermmartin,2025,https://www.inaturalist.org/observations/260552933
+525060,Trichoderma sulphureum,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/47463035/medium.jpg,https://www.inaturalist.org/taxa/525060,ha8je,2025,https://www.inaturalist.org/observations/260546720
+384715,Vararia investiens,N/A,https://inaturalist-open-data.s3.amazonaws.com/photos/158267520/medium.jpeg,https://www.inaturalist.org/taxa/384715,johnplischke,2025,https://www.inaturalist.org/observations/258984260

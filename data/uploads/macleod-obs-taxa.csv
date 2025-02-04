@@ -1,18 +1,18 @@
-id,scientific_name,common_name,image_url,taxa_url
-48711,Lobaria pulmonaria,Tree Lungwort,https://inaturalist-open-data.s3.amazonaws.com/photos/348507061/medium.jpeg,https://www.inaturalist.org/taxa/48711
-67594,Flammulina velutipes,Velvet Foot,https://inaturalist-open-data.s3.amazonaws.com/photos/178638291/medium.jpeg,https://www.inaturalist.org/taxa/67594
-125705,Trichaptum biforme,violet-toothed polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/412458489/medium.jpeg,https://www.inaturalist.org/taxa/125705
-196842,Stereum complicatum,crowded parchment,https://inaturalist-open-data.s3.amazonaws.com/photos/10935746/medium.jpg,https://www.inaturalist.org/taxa/196842
-48494,Pleurotus ostreatus,Oyster Mushroom,https://inaturalist-open-data.s3.amazonaws.com/photos/166311914/medium.jpg,https://www.inaturalist.org/taxa/48494
-124102,Daedaleopsis confragosa,Thin-walled Maze Polypore,https://static.inaturalist.org/photos/242695040/medium.jpg,https://www.inaturalist.org/taxa/124102
-194476,Cerrena unicolor,Mossy Maze Polypore,https://static.inaturalist.org/photos/14764926/medium.jpeg,https://www.inaturalist.org/taxa/194476
-54134,Trametes versicolor,turkey-tail,https://inaturalist-open-data.s3.amazonaws.com/photos/170051685/medium.jpg,https://www.inaturalist.org/taxa/54134
-54164,Pseudohydnum gelatinosum,Toothed Jelly Fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/19732580/medium.jpeg,https://www.inaturalist.org/taxa/54164
-118028,Dacrymyces chrysospermus,Orange Jelly Spot,https://inaturalist-open-data.s3.amazonaws.com/photos/2339659/medium.jpg,https://www.inaturalist.org/taxa/118028
-877361,Fomitopsis mounceae,Northern Red Belt,https://inaturalist-open-data.s3.amazonaws.com/photos/215836404/medium.jpg,https://www.inaturalist.org/taxa/877361
-508778,Fomes excavatus,Tinder Polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/7072667/medium.jpeg,https://www.inaturalist.org/taxa/508778
-127021,Inonotus obliquus,chaga,https://static.inaturalist.org/photos/96195428/medium.jpg,https://www.inaturalist.org/taxa/127021
-53713,Laetiporus sulphureus,chicken of the woods,https://inaturalist-open-data.s3.amazonaws.com/photos/42106925/medium.jpg,https://www.inaturalist.org/taxa/53713
-63274,Ganoderma tsugae,hemlock varnish shelf,https://inaturalist-open-data.s3.amazonaws.com/photos/20032392/medium.jpeg,https://www.inaturalist.org/taxa/63274
-1537057,Fomitopsis cajanderi,Rosy Conk,https://inaturalist-open-data.s3.amazonaws.com/photos/8965638/medium.jpeg,https://www.inaturalist.org/taxa/1537057
-68309,Panellus stipticus,Luminescent Panellus,https://inaturalist-open-data.s3.amazonaws.com/photos/178409678/medium.jpeg,https://www.inaturalist.org/taxa/68309
+id,scientific_name,common_name,image_url,taxa_url,observer_name,observation_year,observation_url
+48711,Lobaria pulmonaria,Tree Lungwort,https://inaturalist-open-data.s3.amazonaws.com/photos/348507061/medium.jpeg,https://www.inaturalist.org/taxa/48711,luis_cardoso,2025,https://www.inaturalist.org/observations/260527159
+67594,Flammulina velutipes,Velvet Foot,https://inaturalist-open-data.s3.amazonaws.com/photos/178638291/medium.jpeg,https://www.inaturalist.org/taxa/67594,seekerofhemiparasites,2025,https://www.inaturalist.org/observations/260542548
+125705,Trichaptum biforme,violet-toothed polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/412458489/medium.jpeg,https://www.inaturalist.org/taxa/125705,potatocthulhu,2025,https://www.inaturalist.org/observations/260548592
+196842,Stereum complicatum,crowded parchment,https://inaturalist-open-data.s3.amazonaws.com/photos/10935746/medium.jpg,https://www.inaturalist.org/taxa/196842,bubbles2217,2025,https://www.inaturalist.org/observations/260548419
+48494,Pleurotus ostreatus,Oyster Mushroom,https://inaturalist-open-data.s3.amazonaws.com/photos/166311914/medium.jpg,https://www.inaturalist.org/taxa/48494,attatexana1,2025,https://www.inaturalist.org/observations/260540134
+124102,Daedaleopsis confragosa,Thin-walled Maze Polypore,https://static.inaturalist.org/photos/242695040/medium.jpg,https://www.inaturalist.org/taxa/124102,patricklm35,2025,https://www.inaturalist.org/observations/260515533
+194476,Cerrena unicolor,Mossy Maze Polypore,https://static.inaturalist.org/photos/14764926/medium.jpeg,https://www.inaturalist.org/taxa/194476,gabriele_lagrasta,2025,https://www.inaturalist.org/observations/260515475
+54134,Trametes versicolor,turkey-tail,https://inaturalist-open-data.s3.amazonaws.com/photos/170051685/medium.jpg,https://www.inaturalist.org/taxa/54134,mariella25,2025,https://www.inaturalist.org/observations/260548723
+54164,Pseudohydnum gelatinosum,Toothed Jelly Fungus,https://inaturalist-open-data.s3.amazonaws.com/photos/19732580/medium.jpeg,https://www.inaturalist.org/taxa/54164,liamhenslee,2025,https://www.inaturalist.org/observations/260520376
+118028,Dacrymyces chrysospermus,Orange Jelly Spot,https://inaturalist-open-data.s3.amazonaws.com/photos/2339659/medium.jpg,https://www.inaturalist.org/taxa/118028,silveradojim,2025,https://www.inaturalist.org/observations/260545102
+877361,Fomitopsis mounceae,Northern Red Belt,https://inaturalist-open-data.s3.amazonaws.com/photos/215836404/medium.jpg,https://www.inaturalist.org/taxa/877361,tayder-tot,2025,https://www.inaturalist.org/observations/260548519
+508778,Fomes excavatus,Tinder Polypore,https://inaturalist-open-data.s3.amazonaws.com/photos/7072667/medium.jpeg,https://www.inaturalist.org/taxa/508778,kris372,2025,https://www.inaturalist.org/observations/260544986
+127021,Inonotus obliquus,chaga,https://static.inaturalist.org/photos/96195428/medium.jpg,https://www.inaturalist.org/taxa/127021,maximion,2025,https://www.inaturalist.org/observations/260537776
+53713,Laetiporus sulphureus,chicken of the woods,https://inaturalist-open-data.s3.amazonaws.com/photos/42106925/medium.jpg,https://www.inaturalist.org/taxa/53713,canieatthat,2025,https://www.inaturalist.org/observations/260535940
+63274,Ganoderma tsugae,hemlock varnish shelf,https://inaturalist-open-data.s3.amazonaws.com/photos/20032392/medium.jpeg,https://www.inaturalist.org/taxa/63274,mariejk,2025,https://www.inaturalist.org/observations/260459820
+1537057,Fomitopsis cajanderi,Rosy Conk,https://inaturalist-open-data.s3.amazonaws.com/photos/8965638/medium.jpeg,https://www.inaturalist.org/taxa/1537057,antye,2025,https://www.inaturalist.org/observations/260532389
+68309,Panellus stipticus,Luminescent Panellus,https://inaturalist-open-data.s3.amazonaws.com/photos/178409678/medium.jpeg,https://www.inaturalist.org/taxa/68309,potatocthulhu,2025,https://www.inaturalist.org/observations/260548821

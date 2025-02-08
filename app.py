@@ -238,14 +238,16 @@ def get_image():
 
 @app.route("/list_csv_files", methods=["GET"])
 def list_csv_files():
-    """List CSV files in a directory."""
+    """List CSV files in a directory in alphabetical order."""
     directory = request.args.get("directory", "mmaforays")
     if directory == "mmaforays":
         directory_path = Config.SPECIES_DATA_DIR
     else:
         directory_path = Config.UPLOADS_DIR
-    #    directory_path = os.path.join(Config.BASE_DATA_DIR, directory)
-    csv_files = [f for f in os.listdir(directory_path) if f.endswith(".csv")]
+
+    # Get CSV files and sort them alphabetically
+    csv_files = sorted([f for f in os.listdir(directory_path) if f.endswith(".csv")], key=str.lower)
+ #   csv_files = sorted([f for f in os.listdir(directory_path) if f.endswith(".csv")])
     return jsonify({"files": csv_files}), 200
 
 

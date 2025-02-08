@@ -113,6 +113,10 @@ def save_pronunciation_cache(cache: Dict[str, str]) -> None:
 def wakeup():
     return "Server is awake!", 200
 
+# Add this endpoint to your Flask app
+@app.route("/ping", methods=["GET"])
+def ping():
+    return "pong", 200
 
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")

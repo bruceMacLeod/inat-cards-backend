@@ -296,12 +296,21 @@ def upload_csv():
             taxon_id = get_taxon_id(scientific_name)
             taxa_url = f"https://www.inaturalist.org/taxa/{taxon_id}" if taxon_id else "N/A"
 
+            # Extract observer_name, observation_year, and observation_url
+            observer_name = row.get("user_login", "N/A")
+            created_at = row.get("created_at", "N/A")
+            observation_year = created_at.split("-")[0] if created_at != "N/A" else "N/A"
+            observation_url = row.get("url", "N/A")
+
             # Create a new row with only the required columns
             new_row = {
                 "scientific_name": scientific_name,
                 "common_name": row.get("common_name", "N/A"),
                 "image_url": row.get("image_url", "N/A"),
-                "taxa_url": taxa_url
+                "taxa_url": taxa_url,
+                "observer_name": observer_name,
+                "observation_year": observation_year,
+                "observation_url": observation_url
             }
             rows.append(new_row)
 
@@ -309,14 +318,16 @@ def upload_csv():
         output_filename = f"{filename}"
         output_filepath = os.path.join(Config.BASE_DATA_DIR, directory, output_filename)
         with open(output_filepath, mode="w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=["scientific_name", "common_name", "image_url", "taxa_url"])
+            writer = csv.DictWriter(f, fieldnames=[
+                "scientific_name", "common_name", "image_url", "taxa_url",
+                "observer_name", "observation_year", "observation_url"
+            ])
             writer.writeheader()
             writer.writerows(rows)
 
         return jsonify({"message": "File uploaded and modified successfully", "filename": output_filename}), 200
 
     return jsonify({"error": "Invalid file type"}), 400
-
 
 @app.route("/select_csv", methods=["POST"])
 def select_csv():

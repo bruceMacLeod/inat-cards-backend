@@ -329,6 +329,59 @@ def upload_csv():
 
     return jsonify({"error": "Invalid file type"}), 400
 
+@app.route("/upload_csv_json", methods=["POST"])  # Explicitly allow POST method
+def upload_csv_json():
+    """
+    Upload a CSV file, process it to add taxa_url, observer_name, observation_year, and observation_url fields,
+    and return the processed records as JSON without saving the file.
+    """
+    if "file" not in request.files:
+        return jsonify({"error": "No file part"}), 400
+
+    file = request.files["file"]
+
+    if file.filename == "":
+        return jsonify({"error": "No selected file"}), 400
+
+    if file and file.filename.endswith(".csv"):
+        try:
+            # Read the uploaded CSV file directly from the request
+            rows = []
+            file_stream = file.stream.read().decode("utf-8").splitlines()
+            reader = csv.DictReader(file_stream)
+            for row in reader:
+                # Fetch the taxon_id and construct the taxa_url
+                scientific_name = row.get("scientific_name", "")
+                taxon_id = get_taxon_id(scientific_name)
+                taxa_url = f"https://www.inaturalist.org/taxa/{taxon_id}" if taxon_id else "N/A"
+
+                # Extract observer_name, observation_year, and observation_url
+                observer_name = row.get("user_login", "N/A")
+                created_at = row.get("created_at", "N/A")
+                observation_year = created_at.split("-")[0] if created_at != "N/A" else "N/A"
+                observation_url = row.get("url", "N/A")
+
+                # Create a new row with only the required columns
+                new_row = {
+                    "scientific_name": scientific_name,
+                    "common_name": row.get("common_name", "N/A"),
+                    "image_url": row.get("image_url", "N/A"),
+                    "taxa_url": taxa_url,
+                    "observer_name": observer_name,
+                    "observation_year": observation_year,
+                    "observation_url": observation_url
+                }
+                rows.append(new_row)
+
+            # Return the processed records as JSON
+            return jsonify({"message": "File processed successfully", "records": rows}), 200
+
+        except Exception as e:
+            logger.error(f"Error processing CSV file: {str(e)}")
+            return jsonify({"error": str(e)}), 500
+
+    return jsonify({"error": "Invalid file type"}), 400
+
 @app.route("/select_csv", methods=["POST"])
 def select_csv():
     """Select a CSV file for flashcards."""
